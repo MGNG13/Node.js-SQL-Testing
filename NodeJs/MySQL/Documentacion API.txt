@@ -1,0 +1,15 @@
+nodemon api_mysql_connection localhost 3000
+
+------------------------  GET  ------------------------
+http://localhost:3000/id/<id>
+http://localhost:3000/nombre/<nombre>
+http://localhost:3000/edad/<edad>
+http://localhost:3000/alldata
+
+------------------------  POST  ------------------------
+http://localhost:3000/new-user
+
+{
+    "nombre": "Test",
+    "edad": 20
+}
